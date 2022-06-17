@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+.wrapp {
+    width: 100vw;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(122, 68, 221);
+}
+
+.margin-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-wrapp {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tips {
+    height: 400px;
+    width: 100%;
+}
+.tips-wrapp {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tip {
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(65, 207, 188);
+    width: 32%;
+    /*min-width: 250px;*/
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.tip-title {
+    text-align: center;
+
+    font-weight: bold;
+    padding: 5px;
+}
+
+/*//first-container*/
+
+.first-container {
+    height: 300px;
+    text-align: center;
+    background-color: blue;
+    position: relative;
+
+}
+
+.text{
+
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.text2{
+    position: absolute;
+    background: yellow;
+    width:80%;
+    top: 50%;
+
+}
+
+/*///last blockquote*/
+
+
+.tips2-wrapp {
+
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tip2 {
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(253, 1, 1);
+    width: 32%;
+    /*min-width: 250px;*/
+    height: 250px;
+    margin-bottom: 10px;
+}
+.tips2 {
+    background-color: red;
+    height: 400px;
+    width: 100%;
+}

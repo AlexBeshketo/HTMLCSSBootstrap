@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: auto 20px;
+}
+
+
+.text_first {
+    display: inline-block;
+    font-family:"Artifakt Element" ;
+    font-size: 35px ;
+
+}
+
+.text_second {
+    padding: 6px 20px;
+    border: 7px solid darkgray;
+    display: inline-block;
+    margin: 5px;
+}
+
+
+.img {
+    outline: 1px solid black;
+    outline-offset: -10px;
+
+
+
+}
+
+.text_container {
+    position: relative;
+}
+
+.text_outside {
+    position: absolute;
+    font-size: 30px;
+    font-family: "Candara Light";
+    font-weight: bold;
+    top: 15px;
+    left: 16px;
+}

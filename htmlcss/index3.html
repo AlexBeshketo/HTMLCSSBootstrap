@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h2>Welcome To GFG</h2>
+<form>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <p>
+            <label>Vardas:Oleksii <input type="text"/></label>
+        </p>
+
+
+        <p>
+            <label>Pavardė :Beshketo <input type="password"/></label>
+        </p>
+
+
+    </fieldset>
+    <fieldset>
+        <legend>Klausimai</legend>
+        <label>Kaip sužinojote apie mus?</label>
+        <select name="salutation">
+            <option>Google</option>
+            <option>Facebook</option>
+            <option>Instagram</option>
+        </select>
+        <div style="padding-top: 20px">
+            <label>Ar apsilankysite vėl?</label>
+            <form>
+                <ul style="list-style-type:none;">
+                    <li><input type="radio" checked name="language" value="Taip"/>Taip</li>
+                    <li><input type="radio" name="language" value="Ne"/>Ne</li>
+                    <li><input type="radio" name="language" value="Galbut"/>Galbut</li>
+                </ul>
+            </form>
+            <label>
+                Ka manote apie kursa? :
+                <br/>
+                <textarea name="address" cols="30" rows="3" placeholder="Rašykite viska ka galvojate">Good</textarea>
+            </label>
+        </div>
+        <div>Pažymėkite programavimo/žymėjimo kalbas su kuriomis esate susipažinę:</div>
+
+            <table>
+                <tbody>
+                <tr>
+
+                    <td><input type="checkbox" name="language" value="Taip"/>C#</td>
+                    <td><input type="checkbox" checked name="language" value="Ne"/>HTML</td>
+                    <td><input type="checkbox" name="language" value="Galbut"/>Python</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="language" value="Galbut"/>JAVA</td>
+                    <td><input type="checkbox" checked name="language" value="Galbut"/>CSS</td>
+                    <td><input type="checkbox" name="language" value="Galbut"/>Ruby</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="language" value="Galbut"/>PHP</td>
+                    <td><input type="checkbox" checked name="language" value="Galbut"/>JavaScript</td>
+                </tr>
+                </tbody>
+            </table>
+            <button style="margin-top: 15px">Siusti</button>
+    </fieldset>
+
+</form>
+</body>
+</html>
